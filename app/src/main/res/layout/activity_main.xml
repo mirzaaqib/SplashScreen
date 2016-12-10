@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pallefire.splashscreen.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/screen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:background="#FF5722"
+        android:text="Puzzles" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:background="#f44336"
+        android:text="Data Sufficiency" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:background="#4CAF50"
+        android:text="Aptitude" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:background="#607D8B"
+        android:text="IQ Test" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="Arithmetic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:layout_weight="1"
+        android:background="#FF5722"
+        android:text="Reasoning" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:layout_height="0dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:background="#d50000"
+        android:layout_weight="1"
+        android:text="Analytical" />
+
+</LinearLayout>
